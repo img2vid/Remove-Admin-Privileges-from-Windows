@@ -5,14 +5,8 @@
     Removes a local user from the Administrators group, changing them to a Standard User.
 .DESCRIPTION
     This script prompts for a username and removes that user from the local Administrators
-    group. It's a safe way to demote an account from admin to standard user privileges.
+    group. It's a way to demote an account from admin to standard user privileges.
     The script MUST be run with administrator rights.
-.NOTES
-    Author: Gemini
-    Version: 1.0
-    WARNING: Before running this script, ensure you have another account on the
-             PC with administrator privileges. If you remove the only admin account,
-             you will lock yourself out of administrative tasks.
 #>
 
 function Remove-AdminPrivileges {
@@ -140,3 +134,4 @@ else {
 
 Write-Host "Script finished. Press Enter to exit."
 Read-Host
+
