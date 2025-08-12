@@ -10,11 +10,15 @@ In the window that opens, copy-paste this text and press Enter:
 Set-ExecutionPolicy RemoteSigned
 
 Type:
+
 A
+
 and press Enter.
 
 Type:
+
 cd (location of the Remove-Admin.ps1 file)
+
 where the text in brackets represent the location of the Remove-Admin.ps1 file. Do not include the brackets. The location may look like this:
 C:\Users\aishi\Downloads\a
 You can find the file location at the top of the Windows Explorer.
@@ -22,6 +26,7 @@ So the command in my case looks like this:
 cd C:\Users\aishi\Downloads\a
 
 Type:
+
 ./Remove-Admin.ps1
 
 Then type the user, which in my case is 'aishi'.
